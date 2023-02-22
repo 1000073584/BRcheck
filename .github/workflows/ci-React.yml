@@ -10,8 +10,8 @@ env:
   DOCKER_FILE_PATH: ./React/Dockerfile.publish
   DOCKER_BUILD_CONTEXT: React
   DOCKER_PUBLISH_CONTEXT: React
-  CONTAINER_NAME: reacttest
-  REPOSITORY_NAME: reacttest
+  CONTAINER_NAME: reactest
+  REPOSITORY_NAME: reactest
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
